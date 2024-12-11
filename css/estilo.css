@@ -1,0 +1,102 @@
+h1{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    color: rgb(11, 12, 12);
+  }
+
+h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(11, 12, 12);
+}
+body{
+    background-image: url(/imagenes/fondo7.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 10;
+    min-height: 100vh;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+section img{
+    width: 30px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.nav-enlace{
+    display: inline-block;
+    background: black;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: grey;
+}
+nav{
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-boton{
+    background: black;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+.pie{
+    background: black;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+
+}
+.hola{
+    background: pink;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (max-width:600px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace {
+        margin: 10px 0;
+    }
+    .nav-boton {
+        display: inline-block;
+    }
+    .desaparecer{
+        display: none;
+    }
+}

@@ -1,0 +1,54 @@
+h1 {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+   background-image: url(/imagenes/fondo7.avif);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   margin: 0;
+   padding: 10;
+   
+   
+}
+.Volver{
+   display: inline-block;
+   background: black;
+   text-decoration: none;
+   color: #fff;
+   padding: 15px 30px;
+   
+}
+.slide{
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+.Volver:hover{
+   background-color: grey;
+}
+@media (max-width:600px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace {
+        margin: 10px 0;
+    }
+    .nav-boton {
+        display: inline-block;
+    }
+    .desaparecer{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .body {
+        background-color: #000;
+    }
+}
+
+    

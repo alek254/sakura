@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Los amigurumis mas lindos">
+    <link rel="icon" type="image/jpg" href="imagenes/iconocro.png">
+
+    <title>Tejidos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menu</button>
+        <a href="#Inicio" class="nav-enlace desaparecer">Inicio</a>
+        <a href="#Productos" class="nav-enlace desaparecer">Productos</a>
+        <a href="#Contactos" class="nav-enlace desaparecer">Contactos</a>
+    </nav>
+
+    <div class="img1" text-aling= "center";>
+        <img src="imagenes/logosinfondo.png" alt=""width="400px" weight="400px">
+
+    </div>
+    <main>
+        <hr><h1 id="Inicio"><b>Los amigurumis mas lindos tejidos con mucho amor.</h1><hr>
+            <hr>
+            <h2 class="hola"><big>Hola, soy Any la persona que está detras de Tejidos Sakura.
+            Los amigurumis más originales hechos en hilo de algodón. Hay un amigurumi para esa persona especial a la que quieras obsequiar. Un trabajo hecho a mano 100% artesanal.<br>
+            Gracias por elegirme.</big></b></h2>
+            <hr>
+
+    </main>
+    <article>
+        <h3 id="Productos">IMÁGENES</h3>
+    <div class="imagenes">
+        <section>
+    <img src="imagenes/IMG-20240908-WA0034.jpg" alt="La sirenita"width=150px>
+    <img src="imagenes/IMG-20240908-WA0035.jpg"alt="Bella y Rapunzel"width=150px>
+    <img src="imagenes/IMG-20240908-WA0036.jpg" alt="Kuromi"width=200px>
+    <img src="imagenes/IMG-20240908-WA0037.jpg" alt="Shrek y Fiona"width=200px>
+        </section>
+    </div>
+    <ol type="I">
+        
+        <li><a href="anime.html">Anime</li>
+        <li><a href="personajesdisney.html">Personajes de Disney</a></li>
+        <li><a href="bebes.html">Bebés</a><Bebes</li>
+        <li><a href="flores.html">Flores</a></li>
+        <li><a href="religiosos.html">Religiosos</a></li>
+        <li><a href="navidad.html">Navidad</a></li>
+        <li><a href="accesorios.html">Accesorios</a></li>
+        <li><a href="personalizados.html">Personalizados</a></li>
+        <li><a href="personajesfamosos.html">Personajes Famosos</a></li>
+
+    </ol>
+</article>
+<footer>
+    <div class="Contacto" id="Contactos">
+        <h4><a href="https://www.instagram.com/tejidos.sakura1/" target="_blank"><img src="imagenes/icono insta.png" alt="sigueme en instagram" width="80" height="80"></a></h4>
+        <h4><a href="https://www.facebook.com/people/Tejidos-Sakura/100077011862350/?locale=en_GB&_rdr" target="_blank"><img src="imagenes/icono face.png" alt="Encontrame en facebook" width="80" height="80"></a></h4>
+        <h4><a href="https://www.tiktok.com/@tejidos.sakura1" target="_blank"><img src="imagenes/icono tik.png" alt="Seguime en tiktok" width="80" height="80"></a></h4>
+        <a href="mailto:any.villarreal21@gmail.com"><img src="imagenes/iconomail3.png" alt="Correo Electronico" width="100" height="100"></a>
+    </div>
+    
+    <h3 class="pie">©Todos los derechos reservados</h3>
+</footer>
+<script>
+    function accion() {
+        console.log('El boton funciona');
+        var ancla = document.getElementsByClassName('nav-enlace');
+        for(var i = 0; i < ancla.length; i++) {ancla[i].classList.toggle('desaparecer');
+
+        }
+    }
+</script>
+    
+</body>
+</html>
