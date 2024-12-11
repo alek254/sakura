@@ -11,9 +11,15 @@ h1 {
    background-attachment: fixed;
    margin: 0;
    padding: 10;
-   
-   
+    
 }
+
+.carousel-item {
+    border: 3px solid black;
+    max-width: 120%;
+    max-height: 20%;
+}
+
 .Volver{
    display: inline-block;
    background: black;
@@ -29,6 +35,7 @@ h1 {
 .Volver:hover{
    background-color: grey;
 }
+
 @media (max-width:600px) {
     nav{
         background: black;
